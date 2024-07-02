@@ -1,0 +1,18 @@
+:root {
+  --light-blue: #2fa9ff;
+  --dark-blue: #13181e;
+  --gray: #56575b;
+}
+
+/* We only want the dropdown menu on the navbar to open on hover for wide screens (not mobile) 
+So we set a media query*/
+
+@media (min-width: 576px) {
+  .dropdown:hover > .dropdown-menu {
+    display: block;
+    margin-top: 0;
+  }
+}
+.navbar {
+  background-color: var(--gray);
+}
