@@ -46,8 +46,14 @@
             <br>
             <h1 class="a-section-title-home py-3">Projects</h1>
             <p>As a full stack developer, my projects showcase work on both front-end and back-end code.</p>
+            <p class="a-subheader pt-3">Quick Nav:</p>
+            <a href="#parks">Parks Planner</a>
+            <a href="#reading">Reading Roundtable</a>
+            <a href="#weather">Weather Buddy</a>
+            <a href="#coding">Coding Quiz</a>
+            <br>
           </div>
-          <div class="col-md-8 d-flex flex-column text-center py-1 px-1">
+          <div class="col-md-8 d-flex flex-column text-center py-1 px-1"  id="parks">
             <div class="row">
               <div class="col-md-12">
                 <div class="container w-80 a-project-preview-title-container">
@@ -90,14 +96,14 @@
 
                   <h4 class="a-project-preview-title py-2">My Role:</h4>
                   <div class="container col-md-10 text-start">
-                    <p>This was a group project in the Edx Bootcamp, requiring the integration of 2 or more APIs. I delegated tasks among the group, created the UI using bootstrap, and collaborated with my team to integrate the APIs and add a bookings list using local storage. 
+                    <p>This was a group project in the Edx Full-Stack Bootcamp, requiring the integration of 2 or more APIs. I delegated tasks among the group, created the UI using bootstrap, and collaborated with my team to integrate the APIs and add a bookings list using local storage. 
                     </p>
                   </div>
                   
                   <h4 class="a-project-preview-title py-2">Technologies Used:</h4>
                   <div class="container col-md-10 text-start">
                     <p>
-                      HTML5, CSS, Bootstrap, National Parks API, Trail API
+                      HTML5, CSS, JavaScript, Bootstrap, National Parks API, Trail API
                     </p>
                   </div>
                   
@@ -122,11 +128,12 @@
                   <div class="container py-3">
                     <div class="row">
                       <div class="col-md-6 py-2">
-                        <button class="btn btn-primary btn-md">View Application</button>
+                        <button class="btn btn-primary btn-md" id="use-parks">Use Application</button>
                       </div>
                       <div class="col-md-6 py-2">
-                        <button class="btn btn-primary btn-md">Github Repository</button>
+                        <button class="btn btn-primary btn-md" id="parks-github">Github Repository</button>
                       </div>
+                      <div id="reading"></div>
                     </div>
                   </div>
                 </div>
@@ -168,20 +175,20 @@
                   </div>
                   <h4 class="a-project-preview-title py-2">Description:</h4>
                   <div class="container col-md-10 text-start">
-                    <p>Parks Planner helps you create your outdoor itinerary in seconds. Access tens of thousands of trails and national parks via the National Parks API and Trails API.</p>
+                    <p>Reading Roundtable is a full-stack express application integrated with a books API, that has a fully functional user database and requires sign up/login to use.</p>
                   </div>
                   
 
                   <h4 class="a-project-preview-title py-2">My Role:</h4>
                   <div class="container col-md-10 text-start">
-                    <p>This was a group project in the Edx Bootcamp, requiring the integration of 2 or more APIs. I delegated tasks among the group, created the UI using bootstrap, and collaborated with my team to integrate the APIs and add a bookings list using local storage. 
+                    <p>This was a group project in the Edx Bootcamp. I worked on the UI using bootstrap and handlebars, and collorated on the signin/login functionality.
                     </p>
                   </div>
                   
                   <h4 class="a-project-preview-title py-2">Technologies Used:</h4>
                   <div class="container col-md-10 text-start">
                     <p>
-                      HTML5, CSS, Bootstrap, National Parks API, Trail API
+                      HTML5, CSS, Bootstrap, Handlebars.js, JavaScript, Express.js
                     </p>
                   </div>
                   
@@ -206,15 +213,16 @@
                   <div class="container py-3">
                     <div class="row">
                       <div class="col-md-6 py-2">
-                        <button class="btn btn-primary btn-md">View Application</button>
+                        <button class="btn btn-primary btn-md" id="use-reading">Use Application</button>
                       </div>
                       <div class="col-md-6 py-2">
-                        <button class="btn btn-primary btn-md">Github Repository</button>
+                        <button class="btn btn-primary btn-md" id="reading-github">Github Repository</button>
                       </div>
                     </div>
                   </div>
-                  
+                  <div id="weather"></div>
                 </div>
+                
               </div>
                 
 
@@ -294,14 +302,14 @@
               <div class="container py-3">
                 <div class="row">
                   <div class="col-md-6 py-2">
-                    <button class="btn btn-primary btn-md">View Application</button>
+                    <button class="btn btn-primary btn-md" id="use-weather">Use Application</button>
                   </div>
                   <div class="col-md-6 py-2">
-                    <button class="btn btn-primary btn-md">Github Repository</button>
+                    <button class="btn btn-primary btn-md" id="weather-github">Github Repository</button>
                   </div>
                 </div>
               </div>
-              
+              <div id="coding"></div>
             </div>
           </div>
           <br>
@@ -380,10 +388,10 @@
               <div class="container py-3">
                 <div class="row">
                   <div class="col-md-6 py-2">
-                    <button class="btn btn-primary btn-md">View Application</button>
+                    <button class="btn btn-primary btn-md" id="use-coding-quiz">Use Application</button>
                   </div>
                   <div class="col-md-6 py-2">
-                    <button class="btn btn-primary btn-md">Github Repository</button>
+                    <button class="btn btn-primary btn-md" id="coding-quiz-github">Github Repository</button>
                   </div>
                 </div>
               </div>
@@ -402,5 +410,6 @@
   </footer>
   <!--Bootstrap CDN: JavaScript-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="./assets/scripts/index.js"></script>
 </body>
 </html>

@@ -23,6 +23,12 @@ body {
   font-size: 54px;
   font-weight: 500;
 }
+
+.a-subheader {
+  font-family: 'alternate-gothic-3d-regular', sans-serif;
+  font-size: 35px;
+  font-weight: 500;
+}
 .a-section-title {
 
 }
