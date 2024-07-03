@@ -44,46 +44,353 @@
           <div class="col-md-4 d-flex flex-column justify-content-top ps-5">
             <hr class="w-50">
             <br>
-            <h1 class="a-section-title-home">Projects</h1>
+            <h1 class="a-section-title-home py-3">Projects</h1>
+            <p>As a full stack developer, my projects showcase work on both front-end and back-end code.</p>
           </div>
           <div class="col-md-8 d-flex flex-column text-center py-1 px-1">
             <div class="row">
-              <div class="col-md">
+              <div class="col-md-12">
                 <div class="container w-80 a-project-preview-title-container">
                   <h4 class="a-project-preview-title">Parks Planner</h4>
                 </div>
                 <div class="container w-80 a-project-preview-body-container">
+                  <div id="parks-carousel" class="carousel slide">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#parks-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#parks-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#parks-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <!--Added class "c-item" to each carousel item for CSS targeting-->
+                      <div class="carousel-item active c-item">
+                        <!--Set width to 100% and display: block-->
+                        <img src="./assets/images/parks-planner/parks1.png" class="d-block w-100 c-img" alt="waterfall">
+                      </div>
+                      <div class="carousel-item c-item">
+                        <img src="./assets/images/parks-planner/parks2.png" class="d-block w-100 c-img" alt="glacier">
+                      </div>
+                      <div class="carousel-item c-item">
+                        <img src="./assets/images/parks-planner/parks3.png" class="d-block w-100 c-img" alt="washington">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#parks-carousel" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#parks-carousel" data-bs-slide="next">
+                      <span class="carousel-control-next-icon"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                  <h4 class="a-project-preview-title py-2">Description:</h4>
+                  <div class="container col-md-10 text-start">
+                    <p>Parks Planner helps you create your outdoor itinerary in seconds. Access tens of thousands of trails and national parks via the National Parks API and Trails API.</p>
+                  </div>
+                  
 
+                  <h4 class="a-project-preview-title py-2">My Role:</h4>
+                  <div class="container col-md-10 text-start">
+                    <p>This was a group project in the Edx Bootcamp, requiring the integration of 2 or more APIs. I delegated tasks among the group, created the UI using bootstrap, and collaborated with my team to integrate the APIs and add a bookings list using local storage. 
+                    </p>
+                  </div>
+                  
+                  <h4 class="a-project-preview-title py-2">Technologies Used:</h4>
+                  <div class="container col-md-10 text-start">
+                    <p>
+                      HTML5, CSS, Bootstrap, National Parks API, Trail API
+                    </p>
+                  </div>
+                  
+                  <h4 class="a-project-preview-title py-2">How to Use:</h4>
+                  <div class="container col-md-10 text-start">
+                    <p class="my-2">
+                      1. Select a US State or territory from the dropdown menu.
+                    </p>
+                    <p>
+                      2. Click <strong>'Search'</strong> to see all US National parks, reserves, and monuments in your selected state or territory.
+                    </p>
+                    <p>
+                      3. Click <strong>'View'</strong> on a park of your choosing, and you'll be prompted with park info, and nearby trails.
+                    </p>
+                    <p>
+                      4. Select <strong>'Book'</strong> to save the park into an itinerary.
+                    </p>
+                    <p>
+                      5. Select <strong>'Click to view bookings'</strong> to see your itinerary.
+                    </p>
+                  </div>
+                  <div class="container py-3">
+                    <div class="row">
+                      <div class="col-md-6 py-2">
+                        <button class="btn btn-primary btn-md">View Application</button>
+                      </div>
+                      <div class="col-md-6 py-2">
+                        <button class="btn btn-primary btn-md">Github Repository</button>
+                      </div>
+                    </div>
+                  </div>
                 </div>
+                <br>
+                <br>
               </div>
               <div class="col-md">
                 <div class="container w-80 a-project-preview-title-container">
-                  <h4 class="a-project-preview-title">Parks Planner</h4>
+                  <h4 class="a-project-preview-title">Reading Roundtable</h4>
                 </div>
-                <div class="container w-80 a-project-preview-body-container p0">
+                <div class="container w-80 a-project-preview-body-container">
+                  <div id="reading-carousel" class="carousel slide">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#reading-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#reading-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#reading-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <!--Added class "c-item" to each carousel item for CSS targeting-->
+                      <div class="carousel-item active c-item">
+                        <!--Set width to 100% and display: block-->
+                        <img src="./assets/images/reading-roundtable/reading1.png" class="d-block w-100 c-img" alt="reading">
+                      </div>
+                      <div class="carousel-item c-item">
+                        <img src="./assets/images/reading-roundtable/reading2.png" class="d-block w-100 c-img" alt="reading">
+                      </div>
+                      <div class="carousel-item c-item">
+                        <img src="./assets/images/reading-roundtable/reading3.png" class="d-block w-100 c-img" alt="reading">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#reading-carousel" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#reading-carousel" data-bs-slide="next">
+                      <span class="carousel-control-next-icon"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                  <h4 class="a-project-preview-title py-2">Description:</h4>
+                  <div class="container col-md-10 text-start">
+                    <p>Parks Planner helps you create your outdoor itinerary in seconds. Access tens of thousands of trails and national parks via the National Parks API and Trails API.</p>
+                  </div>
+                  
 
+                  <h4 class="a-project-preview-title py-2">My Role:</h4>
+                  <div class="container col-md-10 text-start">
+                    <p>This was a group project in the Edx Bootcamp, requiring the integration of 2 or more APIs. I delegated tasks among the group, created the UI using bootstrap, and collaborated with my team to integrate the APIs and add a bookings list using local storage. 
+                    </p>
+                  </div>
+                  
+                  <h4 class="a-project-preview-title py-2">Technologies Used:</h4>
+                  <div class="container col-md-10 text-start">
+                    <p>
+                      HTML5, CSS, Bootstrap, National Parks API, Trail API
+                    </p>
+                  </div>
+                  
+                  <h4 class="a-project-preview-title py-2">How to Use:</h4>
+                  <div class="container col-md-10 text-start">
+                    <p class="my-2">
+                      1. Select a US State or territory from the dropdown menu.
+                    </p>
+                    <p>
+                      2. Click <strong>'Search'</strong> to see all US National parks, reserves, and monuments in your selected state or territory.
+                    </p>
+                    <p>
+                      3. Click <strong>'View'</strong> on a park of your choosing, and you'll be prompted with park info, and nearby trails.
+                    </p>
+                    <p>
+                      4. Select <strong>'Book'</strong> to save the park into an itinerary.
+                    </p>
+                    <p>
+                      5. Select <strong>'Click to view bookings'</strong> to see your itinerary.
+                    </p>
+                  </div>
+                  <div class="container py-3">
+                    <div class="row">
+                      <div class="col-md-6 py-2">
+                        <button class="btn btn-primary btn-md">View Application</button>
+                      </div>
+                      <div class="col-md-6 py-2">
+                        <button class="btn btn-primary btn-md">Github Repository</button>
+                      </div>
+                    </div>
+                  </div>
+                  
                 </div>
               </div>
+                
+
+          </div>
+          <br>
+          <br>
+          <div class="col-md">
+            <div class="container w-80 a-project-preview-title-container">
+              <h4 class="a-project-preview-title">Weather Buddy</h4>
             </div>
-            <div class="row">
-              <div class="col-md">
-                <div class="container w-80 a-project-preview-title-container">
-                  <h4 class="a-project-preview-title">Parks Planner</h4>
+            <div class="container w-80 a-project-preview-body-container">
+              <div id="weather-carousel" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#weather-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#weather-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#weather-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
-                <div class="container w-80 a-project-preview-body-container">
+                <div class="carousel-inner">
+                  <!--Added class "c-item" to each carousel item for CSS targeting-->
+                  <div class="carousel-item active c-item">
+                    <!--Set width to 100% and display: block-->
+                    <img src="./assets/images/weather-buddy/weather1.png" class="d-block w-100 c-img" alt="weather">
+                  </div>
+                  <div class="carousel-item c-item">
+                    <img src="./assets/images/weather-buddy/weather2.png" class="d-block w-100 c-img" alt="weather">
+                  </div>
+                  <div class="carousel-item c-item">
+                    <img src="./assets/images/weather-buddy/weather3.png" class="d-block w-100 c-img" alt="weather">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#weather-carousel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#weather-carousel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <h4 class="a-project-preview-title py-2">Description:</h4>
+              <div class="container col-md-10 text-start">
+                <p>Parks Planner helps you create your outdoor itinerary in seconds. Access tens of thousands of trails and national parks via the National Parks API and Trails API.</p>
+              </div>
+              
 
+              <h4 class="a-project-preview-title py-2">My Role:</h4>
+              <div class="container col-md-10 text-start">
+                <p>This was a group project in the Edx Bootcamp, requiring the integration of 2 or more APIs. I delegated tasks among the group, created the UI using bootstrap, and collaborated with my team to integrate the APIs and add a bookings list using local storage. 
+                </p>
+              </div>
+              
+              <h4 class="a-project-preview-title py-2">Technologies Used:</h4>
+              <div class="container col-md-10 text-start">
+                <p>
+                  HTML5, CSS, Bootstrap, National Parks API, Trail API
+                </p>
+              </div>
+              
+              <h4 class="a-project-preview-title py-2">How to Use:</h4>
+              <div class="container col-md-10 text-start">
+                <p class="my-2">
+                  1. Select a US State or territory from the dropdown menu.
+                </p>
+                <p>
+                  2. Click <strong>'Search'</strong> to see all US National parks, reserves, and monuments in your selected state or territory.
+                </p>
+                <p>
+                  3. Click <strong>'View'</strong> on a park of your choosing, and you'll be prompted with park info, and nearby trails.
+                </p>
+                <p>
+                  4. Select <strong>'Book'</strong> to save the park into an itinerary.
+                </p>
+                <p>
+                  5. Select <strong>'Click to view bookings'</strong> to see your itinerary.
+                </p>
+              </div>
+              <div class="container py-3">
+                <div class="row">
+                  <div class="col-md-6 py-2">
+                    <button class="btn btn-primary btn-md">View Application</button>
+                  </div>
+                  <div class="col-md-6 py-2">
+                    <button class="btn btn-primary btn-md">Github Repository</button>
+                  </div>
                 </div>
               </div>
-              <div class="col-md">
-                <div class="container w-80 a-project-preview-title-container">
-                  <h4 class="a-project-preview-title">Parks Planner</h4>
-                </div>
-                <div class="container w-80 a-project-preview-body-container">
-
-                </div>
-              </div>
+              
             </div>
           </div>
+          <br>
+          <br>
+
+          <div class="col-md">
+            <div class="container w-80 a-project-preview-title-container">
+              <h4 class="a-project-preview-title">Coding Quiz</h4>
+            </div>
+            <div class="container w-80 a-project-preview-body-container">
+              <div id="coding-carousel" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#coding-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#coding-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#coding-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <!--Added class "c-item" to each carousel item for CSS targeting-->
+                  <div class="carousel-item active c-item">
+                    <!--Set width to 100% and display: block-->
+                    <img src="./assets/images/coding-quiz/quiz1.png" class="d-block w-100 c-img" alt="coding">
+                  </div>
+                  <div class="carousel-item c-item">
+                    <img src="./assets/images/coding-quiz/quiz2.png" class="d-block w-100 c-img" alt="coding">
+                  </div>
+                  <div class="carousel-item c-item">
+                    <img src="./assets/images/coding-quiz/quiz3.png" class="d-block w-100 c-img" alt="coding">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#coding-carousel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#coding-carousel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <h4 class="a-project-preview-title py-2">Description:</h4>
+              <div class="container col-md-10 text-start">
+                <p>Parks Planner helps you create your outdoor itinerary in seconds. Access tens of thousands of trails and national parks via the National Parks API and Trails API.</p>
+              </div>
+              
+
+              <h4 class="a-project-preview-title py-2">My Role:</h4>
+              <div class="container col-md-10 text-start">
+                <p>This was a group project in the Edx Bootcamp, requiring the integration of 2 or more APIs. I delegated tasks among the group, created the UI using bootstrap, and collaborated with my team to integrate the APIs and add a bookings list using local storage. 
+                </p>
+              </div>
+              
+              <h4 class="a-project-preview-title py-2">Technologies Used:</h4>
+              <div class="container col-md-10 text-start">
+                <p>
+                  HTML5, CSS, Bootstrap, National Parks API, Trail API
+                </p>
+              </div>
+              
+              <h4 class="a-project-preview-title py-2">How to Use:</h4>
+              <div class="container col-md-10 text-start">
+                <p class="my-2">
+                  1. Select a US State or territory from the dropdown menu.
+                </p>
+                <p>
+                  2. Click <strong>'Search'</strong> to see all US National parks, reserves, and monuments in your selected state or territory.
+                </p>
+                <p>
+                  3. Click <strong>'View'</strong> on a park of your choosing, and you'll be prompted with park info, and nearby trails.
+                </p>
+                <p>
+                  4. Select <strong>'Book'</strong> to save the park into an itinerary.
+                </p>
+                <p>
+                  5. Select <strong>'Click to view bookings'</strong> to see your itinerary.
+                </p>
+              </div>
+              <div class="container py-3">
+                <div class="row">
+                  <div class="col-md-6 py-2">
+                    <button class="btn btn-primary btn-md">View Application</button>
+                  </div>
+                  <div class="col-md-6 py-2">
+                    <button class="btn btn-primary btn-md">Github Repository</button>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+
         </div>
       </div>
       <br>

@@ -92,3 +92,9 @@ body {
 .view-project {
   
 }
+
+.a-project {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/parks-planner/parks3.png");
+  background-size: cover;
+}
+
