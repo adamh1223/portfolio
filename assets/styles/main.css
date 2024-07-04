@@ -5,11 +5,11 @@
 
 :root {
   --light-blue: #2fa9ff;
-  --dark-blue: #13181e;
+  --dark-blue: #252f3b;
   --dark-gray: #212529;
 }
 body {
-  background-color: var(--dark-blue);
+  background-color: #252f3b;
 }
 * {
   font-family: Arial, Helvetica, sans-serif;
@@ -104,3 +104,60 @@ body {
   background-size: cover;
 }
 
+.logo {
+  height: 100px;
+}
+
+.css-logo {
+  height: 117px;
+  clip-path: inset(8px);
+  margin: -8px -17px 0 0;
+} 
+.js-logo {
+  height: 90px;
+  margin: 15px 0 0 -17px;
+} 
+
+.react-logo {
+  height: 105px;
+  margin: 8px 0 0 -10px;
+}
+
+.express-logo {
+  height: 90px;
+}
+.mongo-logo {
+  height: 100px;
+  margin: -18px 0 0 30px;
+}
+.sql-logo {
+  height: 70px;
+  margin: 0 0 0 30px;
+}
+
+.jquery-logo {
+  height: 110px;
+  margin: 10px 0 0 20px;
+}
+
+.node-logo {
+  height: 100px;
+  margin: 15px 0 0 15px;
+}
+
+.about-subheader {
+  margin: 0 0 20px 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+.a-subheader-container {
+
+}
+
+.logo-row-2 {
+  margin: -120px 0 0 0;
+}
