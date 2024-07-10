@@ -1,13 +1,4 @@
-// const viewParks = document.getElementById('view-parks-planner')
-// const viewReading = document.getElementById('view-reading-roundtable')
-
-// viewParks.addEventListener('click', () => {
-
-// })
-
-// viewReading.addEventListener('click', () => {
-    
-// })
+//Create event listeners for the buttons that open each application and/or github repo
 
 document.getElementById('use-parks').addEventListener('click', function() {
     window.open('https://adamh1223.github.io/parks-planner/', '_blank');
